@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app = "test">
+ <head>
+  <title>welcome</title>
+  <script src="F:\Angularjs\angular.min.js"></script>
+  <script src="F:\Angularjs\new2.js"></script>
+ </head>
+ <body>
+              
+     <div ng-controller="myCtr">
+        <table border="2">
+            <thead>
+                <th>name</th>
+                <th>marks</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="person in people">
+                    <td>{{person.name}}</td>
+                    <td>{{person.marks}}</td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
+ </body>
+</html>
